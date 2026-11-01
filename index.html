@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation | Samreen & Armaan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="petals" id="petals"></div>
+
+    <main class="invitation-container">
+
+        <!-- Envelope Screen -->
+        <section class="envelope-screen" id="envelopeScreen">
+            <p class="top-text">YOU ARE CORDIALLY INVITED</p>
+            <div class="guest-entry" id="guestEntry">
+                <h2>Welcome, Dear Guest</h2>
+                <p>Please enter your name on the invitation</p>
+            
+                <input
+                    type="text"
+                    id="guestName"
+                    placeholder="Enter your full name"
+                    maxlength="40"
+                >
+            
+                <button id="continueBtn">CONTINUE</button>
+            
+                <p class="error-message" id="nameError"></p>
+            </div>
+
+            <div class="envelope" id="envelope">
+                <div class="envelope-back"></div>
+                <div class="letter">
+                    <span>With Love</span>
+                    <h2>Samreen</h2>
+                    <p>&</p>
+                    <h2>Armaan</h2>
+                    <small>20 . 11 . 2026</small>
+                </div>
+                <div class="envelope-front"></div>
+                <div class="envelope-flap"></div>
+                <div class="wax-seal">S ♡ A</div>
+            </div>
+
+            <p class="open-text">Tap the envelope to open</p>
+            <button id="openBtn">OPEN INVITATION</button>
+        </section>
+
+        <!-- Invitation Card -->
+        <section class="invitation-card" id="invitationCard">
+
+            <div class="card-border">
+
+                <div class="ornament">✦✦✦✦</div>
+                <div class="bismillah">
+                    بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+                </div>
+
+                <p class="small-heading">IN THE NAME OF ALLAH</p>
+
+                <h1>Wedding Invitation</h1>
+                <p class="guest-welcome" id="guestWelcome"></p>
+
+                <p class="intro">
+                    With the blessings of Allah and our families,
+                    we joyfully invite you to celebrate the
+                    beginning of our forever.
+                </p>
+
+                <div class="floral-divider">✦</div>
+
+                <p class="couple-label">THE BRIDE</p>
+                <h2 class="name">Samreen</h2>
+
+                <p class="and">&</p>
+
+                <p class="couple-label">THE GROOM</p>
+                <h2 class="name">Armaan</h2>
+
+                <div class="floral-divider">✦</div>
+
+                <p class="event-label">NIKAH CEREMONY</p>
+
+                <h2 class="date">20 November 2026</h2>
+                <p class="time">11:00 AM</p>
+
+                <div class="venue-box">
+                    <p class="couple-label">VENUE</p>
+                    <h2>Jannat Palace</h2>
+                </div>
+
+                <p class="closing">
+                    Your presence will make our special day
+                    even more memorable.
+                </p>
+
+                <div class="ornament bottom-ornament">✦✦✦✦</div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
